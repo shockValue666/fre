@@ -12,7 +12,7 @@ export default function Home() {
       <Navbar address={address} setAddress={setAddress}/>
       <MintSection address={address} setAddress={setAddress}/>
       <AboutSection />
-      <CreatorsSection />
+      {/* <CreatorsSection /> */}
       <Footer />
     </div>
   );
