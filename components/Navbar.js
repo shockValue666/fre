@@ -32,7 +32,7 @@ const Navbar = ({address,setAddress}) => {
         <li className="mx-2">
           <a href="https://twitter.com/your-twitter" className="text-white">Twitter</a>
         </li>
-        <li className="mx-2">
+        {/* <li className="mx-2">
           <a href="https://discord.gg/your-discord" className="text-white">Discord</a>
         </li>
         <li className="mx-2">
@@ -40,18 +40,9 @@ const Navbar = ({address,setAddress}) => {
         </li>
         <li className="mx-2">
           <a href="#team" className="text-white">Team</a>
-        </li>
+        </li> */}
       </ul>
     </nav>
-    // <nav className="bg-lab-blue p-4">
-    //   <ul className="flex justify-end">
-    //     {/* ...other navbar code... */}
-    //     <button onClick={connectWallet} className="bg-lab-green text-white px-4 py-2 rounded">
-    //       {address ? `Connected: ${address}` : 'Connect'}
-    //     </button>
-    //     {/* ...other navbar code... */}
-    //   </ul>
-    // </nav>
 
   );
 };
