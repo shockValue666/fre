@@ -6,7 +6,7 @@ import {ethers,BigNumber} from 'ethers'
 
 
 
-const psoliAddress = "0xcF608CB2941f15A553F5a8146674aDBF3E94236C"
+const psoliAddress = "0x3f1387648937c27e9A2E4894A179BAa12b769521"
 
 
 const MintSection = ({address}) => {
